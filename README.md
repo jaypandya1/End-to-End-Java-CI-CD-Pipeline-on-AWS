@@ -13,6 +13,7 @@ This repository contains a fully automated CI/CD pipeline for a Java application
 * **Orchestration:** Amazon ECS (Fargate/EC2)
 * **Notifications:** Slack
 
+```mermaid
 graph LR
     Dev([Developer]) -- Git Push --> GitHub((GitHub))
     GitHub -- Trigger --> Jenkins((Jenkins))
@@ -31,7 +32,7 @@ graph LR
     classDef tool fill:#f9f9f9,stroke:#333,stroke-width:2px;
     class GitHub,Jenkins,ECR tool;
 
-
+```
 ## 🏗 Pipeline Stages
 1.  **Fetch Code:** Pulls the latest source code from GitHub.
 2.  **Build & Test:** Compiles the Java application and runs Unit Tests using Maven.
