@@ -57,7 +57,8 @@ graph LR
 
 ## 📊 Monitoring
 * **SonarQube:** View detailed reports at your SonarQube Dashboard.
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/f060af5d-ce12-490d-9459-2ae3700b985c" />
+<img width="1588" height="955" alt="need" src="https://github.com/user-attachments/assets/f8bf3a98-9b0e-4e18-8cb8-d5873dc99c6e" />
+
 
 * **Slack:** Real-time build status updates are sent to the `#help-jenkins` channel.
   <img width="1440" height="900" alt="Screenshot 2026-03-27 at 11 53 42 AM" src="https://github.com/user-attachments/assets/f975f28b-e7fa-418a-a5b0-a719f3e14e27" />
